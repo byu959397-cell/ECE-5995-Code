@@ -1,6 +1,5 @@
 # TGR-LoRA: Task Gradient Routing LoRA for Continual Learning
 
-```text
 ## 1. Data Preparation
 
 To replicate the experiments, you need to prepare the TRACE benchmark dataset. (https://github.com/BeyonderXX/TRACE)
@@ -11,6 +10,7 @@ To replicate the experiments, you need to prepare the TRACE benchmark dataset. (
 
 **Directory Structure:**
 
+```text
 data/
 └── trace/
     ├── 20Minuten/
@@ -64,7 +64,7 @@ tgr_lora_project/
 ├── train_trace.py     
 ├── requirements.txt    
 └── README.md            
-
+```
 
 ## 2. Prepare the environment
 run "pip install -r requirements.txt", the experiment also need to be run with at least one GPU.
