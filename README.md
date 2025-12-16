@@ -10,6 +10,7 @@ To replicate the experiments, you need to prepare the TRACE benchmark dataset. (
 
 **Directory Structure:**
 
+```text
 data/
 └── trace/
     ├── 20Minuten/
@@ -45,26 +46,28 @@ data/
         ├── test.json
         └── train.json
 
-
+```text
 tgr_lora_project/
 ├── data/
-├── └── trace/ ...
+│   └── trace/ ...        
 ├── outputs/
-├── └── ...
-├── tgr_lora/
+│   └── ...              
+├── tgr_lora/           
 │   ├── __init__.py
-│   ├── config.py
-│   ├── math_utils.py
-│   ├── memory_bank.py
-│   ├── lora_layers.py
-│   ├── trainer.py
-│   ├── trace_dataset.py
-│   └── evaluation.py
-├── train_trace.py
-├── requirements.txt
-└── README.md
+│   ├── config.py        
+│   ├── math_utils.py   
+│   ├── memory_bank.py   
+│   ├── lora_layers.py 
+│   ├── trainer.py      
+│   ├── trace_dataset.py 
+│   └── evaluation.py    
+├── train_trace.py     
+├── requirements.txt    
+└── README.md            
 
-## 2. Prepare the environment: run "pip install -r requirements.txt", the experiment also need to be run with at least one GPU.
+
+## 2. Prepare the environment
+run "pip install -r requirements.txt", the experiment also need to be run with at least one GPU.
 
 ## 3. Run the command as follows, you can refer to train_trace.py file to add other commands 
 HF_ENDPOINT=https://hf-mirror.com python train_trace.py \
