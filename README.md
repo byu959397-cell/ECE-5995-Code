@@ -46,7 +46,7 @@ data/
         ├── test.json
         └── train.json
 
-```text
+
 tgr_lora_project/
 ├── data/
 │   └── trace/ ...        
